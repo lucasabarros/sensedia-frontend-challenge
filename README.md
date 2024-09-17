@@ -15,16 +15,16 @@ Este projeto é um desafio de codificação que visa construir uma aplicação d
 - **Jest**: Framework de testes utilizado para testes unitários e cobertura de código.
 
 ## Versões
-Certifique-se de ter as seguintes versões do Node.js e do Pnpm para evitar incompatibilidades:
+Certifique-se de ter as seguintes versões do Node.js e do Npm para evitar incompatibilidades:
 - **Node.js**: 18.20.4
-- **Pnpm**: 8.6.12
+- **Npm**: 10.7.0
 
 ## Clonar o Projeto
 Para clonar o projeto, execute o seguinte comando:
 `git clone https://github.com/lucasabarros/sensedia-frontend-challenge.git`
 
 ## Instalar Dependências
-Para instalar as dependências, execute o comando: `pnpm install`
+Para instalar as dependências, execute o comando: `npm install`
 
 ## Executar
 
@@ -32,19 +32,18 @@ Para instalar as dependências, execute o comando: `pnpm install`
 
 Por padrão, a aplicação será executada na porta 3000. Acesse-a em http://localhost:3000. 
 
-Para iniciar o servidor de desenvolvimento, execute o comando: `pnpm dev`.
+Para iniciar o servidor de desenvolvimento, execute o comando: `npm  run dev`.
 
 ## Testar
 
 Os testes unitários estão localizados em **sensedia-frontend-challenge/tests/unit/** e os testes de comportamento estão localizados **sensedia-frontend-challenge/tests/behavior/**.
 
-- Para executar todos os testes, execute o comando: `pnpm test`.
-- Para executar testes unitários, execute o comando: `pnpm test:unit`.
-- Para executar testes unitários, execute o comando: `pnpm test:unit`.
-- Para executar testes de comportamento, execute o comando: `pnpm test:behavior`.
-- Para verificar a cobertura de testes, execute o comando: `pnpm test:coverage`.
+- Para executar todos os testes, execute o comando: `npm run test`.
+- Para executar testes unitários, execute o comando: `npm run test:unit`.
+- Para executar testes de comportamento, execute o comando: `npm run test:behavior`.
+- Para verificar a cobertura de testes, execute o comando: `npm run test:coverage`.
 
 ## Build
-Para criar uma versão de produção da aplicação, execute: `pnpm build`.
+Para criar uma versão de produção da aplicação, execute: `npm run build`.
 
 A build gerada estará na pasta dist/.
