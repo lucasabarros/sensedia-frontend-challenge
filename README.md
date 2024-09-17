@@ -32,7 +32,7 @@ Para instalar as dependências, execute o comando: `npm install`
 
 Por padrão, a aplicação será executada na porta 3000. Acesse-a em http://localhost:3000. 
 
-Para iniciar o servidor de desenvolvimento, execute o comando: `npm  run dev`.
+Para iniciar o servidor de desenvolvimento, execute o comando: `npm run dev`.
 
 ## Testar
 
